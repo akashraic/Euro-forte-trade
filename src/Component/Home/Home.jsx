@@ -10,49 +10,48 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Container>
-                    <Carousel>
+                <Container className="Home-container">
+                    <Carousel className="">
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="https://dummyimage.com/800x400/#37394/838496&text=Slide+1"
+                                src="assets/Carousel/Bas Ajvar.jpg"
                                 alt="First slide"
                             />
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
+                        </Carousel.Item>
+                        {/*<Carousel.Item>*/}
+                            {/*<img*/}
+                                {/*className="d-block w-100"*/}
+                                {/*src="assets/Carousel/Golemi_EN_Gurmano_Pack_2018.png"*/}
+                                {/*alt="Second slide"*/}
+                            {/*/>*/}
+                        {/*</Carousel.Item>*/}
+                        {/*<Carousel.Item>*/}
+                            {/*<img*/}
+                                {/*className="d-block w-100"*/}
+                                {/*src="assets/Carousel/Mali_EN_Gurmano_Pack_2018.png"*/}
+                                {/*alt="Third slide"*/}
+                            {/*/>*/}
+                        {/*</Carousel.Item>*/}
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="assets\Carousel\Perustija.jpg"
+                                alt="Fourth slide"
+                            />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="https://dummyimage.com/800x400/#37394/838496&text=Slide+2"
-                                alt="Second slide"
+                                src="assets\Carousel\1.jpg"
+                                alt="Fifth slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="https://dummyimage.com/800x400/#37394/838496&text=Slide+3"
-                                alt="Third slide"
-                            />
-
-                            <Carousel.Caption>
-                                <h3>Third slide label</h3>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
                 </Container>
             </div>
         );
     }
-
 }
 
 export default Home;

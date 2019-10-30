@@ -1,0 +1,53 @@
+/*Styles Wrapper for navigation items*/
+.Navbar {
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    display: flex;
+    height: 115px;
+    left:0;
+    margin-bottom: 2rem;
+    background: greenyellow;
+}
+
+.Navbar-links{
+    color: #282c34;
+}
+
+.Navbar-nav-items {
+    padding: 0 1rem;
+    height: 5.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+
+.Navbar-nav-items:hover,
+.Navbar-nav-items:active{
+    background: #005826;
+    transition: 0.3s;
+}
+
+.Navbar-nav-items:hover .Navbar-links,
+.Navbar-nav-items:active{
+    color: #F5F5F5;
+    transition: 0.3s;
+}
+
+.Logo-container {
+    margin: 2% 2% 2% 2%;
+}
+
+.Logo {
+    width:6rem;
+    /*padding: 0 5% 5% 5%;*/
+
+}
+
+/*creates space between logo and navigation*/
+.spacer {
+    flex: 100;
+}
