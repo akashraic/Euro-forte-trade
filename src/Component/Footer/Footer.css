@@ -21,9 +21,13 @@
 
 .list
 {
-    padding: 5% 0 5% 10%;
+    padding: 3.5% 0 2% 5%;
     margin: 0 auto;
     text-align:center;
+}
+
+.terms {
+    font-size: 20px;
 }
 
 .list-unstyled
@@ -36,16 +40,17 @@
 {
     margin: 0 auto;
     padding: 0 2% 0 0;
+    font-size: 20px;
     color: #aaaaaa;
 }
 
 .developer-copyright
 {
     margin: 0 auto;
-    padding: 0 0 5% 5%;
+    padding: 2% 0 2% 5%;
     color: #aaaaaa;
     text-align: center;
-    font-size:10px;
+    font-size:14px;
 }
 
 .horizontal

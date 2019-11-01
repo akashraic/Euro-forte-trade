@@ -13,7 +13,7 @@ class Footer extends Component {
                         {/*this code retrieves the year and updates it automatically*/}
                         <ul className="list">
                             <li className="footer-copyright list-unstyled first horizontal">&copy; {(new Date().getFullYear())} Euro Forte Trade Inc.</li>
-                            <li className="list-unstyled horizontal"><a href={'/Terms'} className="link">Terms</a></li>
+                            <li className="list-unstyled horizontal"><a href={'/Terms'} className="link terms">Terms</a></li>
                         </ul>
                         <div className="developer-copyright">
                             &copy; {(new Date().getFullYear())} Developed By: <a href="https://akashrai.me/" className="link" target="_blank"> Akash Rai Chhabria </a>
@@ -24,7 +24,6 @@ class Footer extends Component {
             </div>
         )
     }
-
 }
 
 export default Footer;
