@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <Container className="Home-container">
-                    <Carousel className="">
+                    <Carousel className="Home-carousel">
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
