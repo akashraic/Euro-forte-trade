@@ -1,6 +1,7 @@
-const routes = [
+export const routes = [
     {
         label: "AJVAR",
+        isOrganic:true,
         fire_path: "Organic/AJVAR",
         title: "Organic AJVAR Hot/Mild",
         Description: "prepared by a traditional European recipe",
@@ -10,6 +11,7 @@ const routes = [
     },
     {
         label: "Baked Beans",
+        isOrganic:true,
         fire_path: "Organic/BakedBeans",
         title: "Organic Baked Beans",
         Description: "350 g. is ready to eat meal",
@@ -18,6 +20,7 @@ const routes = [
     },
     {
         label: "Nettle Leaves",
+        isOrganic:true,
         fire_path: "Organic/NettleLeaves",
         title: "Organic Nettle Leaves 600 g ",
         Description: "Nettles leaves have a tender texture and a “green” earthy and wild taste which is similar to the taste of spinach.",
@@ -25,6 +28,7 @@ const routes = [
     },
     {
         label: "Pate",
+        isOrganic:true,
         fire_path: "Organic/NettleLeaves",
         title: "Organic pate 95g (Classic, Spicy, and Mediterana) ",
         Description: "Organic PATE has creamy texture and is made from Organic Ingredients.",
@@ -34,17 +38,20 @@ const routes = [
     },
     {
         label: "Vegetables in Jars",
+        isOrganic:false,
         fire_path: "/VegetablesInJars",
         title: "Vegetables in Jars ",
     },
     {
         label: "Muesli",
+        isOrganic:false,
         fire_path: "/Muesli",
         title: "Natura Muesli",
         Description: "Natura Muesli is a delicious blend of whole grain cereals (oat, barley, wheat, rye) enriched with dried fruits, nuts and seeds represents an excellent choice to start the day. "
     },
     {
         label: "Juices",
+        isOrganic:false,
         fire_path: "/Juices",
         title: "Cold Pressed Juice",
         Description: "Cold pressed juice is made by extracting the maximum amount of liquid from fresh fruits with a hydraulic press. No heat or oxygen is used in the process. No nutrients are lost",
@@ -52,11 +59,13 @@ const routes = [
     },
     {
         label: "Sweets and Snacks",
+        isOrganic:false,
         fire_path: "/SweetsandSnacks",
         title: "Sweets and Snacks",
     },
     {
         label: "Roasted Vegetable Spreads",
+        isOrganic:false,
         fire_path: "/RoastedVegetableSpreads",
         title: "Roasted Vegetable Spread ",
         Description: "100% Natural with No Preservatives, No Artificial Colors, No GMO and Gluten Free Traditional Homemade recipe made with wooden roasted vegetables",
